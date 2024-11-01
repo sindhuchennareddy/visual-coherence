@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="salt" sideLength="0.130000"/>
+        <ImageTarget name="card" size="0.100000 0.061453"/>
+        <ImageTarget name="arpic" size="0.100000 0.156863"/>
+        <ImageTarget name="Kiehls.Right" size="0.038100 0.113771"/>
+        <ImageTarget name="Kiehls.Top" size="0.038100 0.038100"/>
+        <ImageTarget name="Kiehls.Left" size="0.038100 0.113771"/>
+        <ImageTarget name="Kiehls.Front" size="0.038100 0.113771"/>
+        <ImageTarget name="Kiehls.Bottom" size="0.038100 0.038100"/>
+        <ImageTarget name="Kiehls.Back" size="0.038100 0.113771"/>
+        <MultiTarget name="Kiehls">
+            <Part name="Kiehls.Left" translation="-0.019050000235438347 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Kiehls.Right" translation="0.019050000235438347 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Kiehls.Front" translation="0 0 0.019050000235438347" rotation="AD: 1 0 0 0"/>
+            <Part name="Kiehls.Back" translation="0 0 -0.019050000235438347" rotation="AD: 0 1 0 180"/>
+            <Part name="Kiehls.Top" translation="0 0.05700000002980232 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Kiehls.Bottom" translation="0 -0.05700000002980232 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
